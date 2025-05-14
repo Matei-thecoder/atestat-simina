@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lamborghini</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    nav {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background: rgba(255, 255, 0, 0.8);
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        position: static;
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      nav a {
+        display: block;
+        margin: 5px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero" style="background-image: url('images/lamborghini-hero.jpg');">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="ferrari.html">Ferrari</a>
+      <a href="mclaren.html">McLaren</a>
+      <a href="bugatti.html">Bugatti</a>
+      <a href="pagani.html">Pagani</a>
+    </nav>
+    <div class="hero-text">
+      <h1>Lamborghini</h1>
+      <p>Born to Be Wild Since 1963</p>
+    </div>
+  </section>
+
+  <section class="history">
+    <h2>About Lamborghini</h2>
+    <p>
+      Automobili Lamborghini was founded in 1963 by Ferruccio Lamborghini to compete with Ferrari. Headquartered in Sant'Agata Bolognese, Italy, Lamborghini is celebrated for its aggressive styling, roaring V10 and V12 engines, and pushing the limits of performance and design.
+    </p>
+    <p>
+      Lamborghini revolutionized supercar aesthetics and performance with mid-engine layouts and bold geometries. Models like the Miura, Countach, and Aventador redefined what it meant to be a supercar, while the brand's motorsport division pushes the envelope on racetracks worldwide.
+    </p>
+    <p>
+      The brand continues to evolve with hybrid technologies and limited-edition masterpieces while staying true to its radical DNA: extreme, uncompromising, and unmistakably Lamborghini.
+    </p>
+  </section>
+
+  <section class="models">
+    <h2>Featured Models</h2>
+    <div class="model-grid">
+      <div class="model-card">
+        <img src="images/lamborghini-aventador.jpg" alt="Lamborghini Aventador" />
+        <h3>Aventador</h3>
+        <p>Flagship V12 with scissor doors and dramatic presence.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/lamborghini-huracan.jpg" alt="Lamborghini Huracan" />
+        <h3>Huracán</h3>
+        <p>V10-powered supercar delivering raw performance and agility.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/lamborghini-revuelto.jpg" alt="Lamborghini Revuelto" />
+        <h3>Revuelto</h3>
+        <p>The first V12 plug-in hybrid from Lamborghini with 1,001 hp.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/lamborghini-sian.jpg" alt="Lamborghini Sián" />
+        <h3>Sián FKP 37</h3>
+        <p>Limited-edition hybrid with futuristic design and 819 hp.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/lamborghini-countach-lpi800.jpg" alt="Lamborghini Countach LPI 800-4" />
+        <h3>Countach LPI 800-4</h3>
+        <p>Modern tribute to the icon, with hybrid tech and bold lines.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/lamborghini-urus.jpg" alt="Lamborghini Urus" />
+        <h3>Urus</h3>
+        <p>The world's first super SUV — luxury, speed, and practicality.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

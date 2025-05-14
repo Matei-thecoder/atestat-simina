@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ferrari</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    nav {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background: rgba(255, 0, 0, 0.8);
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        position: static;
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      nav a {
+        display: block;
+        margin: 5px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero" style="background-image: url('images/ferrari-hero.jpg');">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="lamborghini.html">Lamborghini</a>
+      <a href="mclaren.html">McLaren</a>
+      <a href="bugatti.html">Bugatti</a>
+      <a href="pagani.html">Pagani</a>
+    </nav>
+    <div class="hero-text">
+      <h1>Ferrari</h1>
+      <p>Italian Performance Since 1939</p>
+    </div>
+  </section>
+
+  <section class="history">
+    <h2>About Ferrari</h2>
+    <p>
+      Ferrari was founded by Enzo Ferrari in 1939 out of Alfa Romeo's race division.
+      Headquartered in Maranello, Italy, Ferrari is one of the world's most powerful
+      and prestigious brands, synonymous with speed, luxury, and heritage.
+    </p>
+    <p>
+      Known for its dominance in Formula 1 and road cars that blend art with performance,
+      Ferrari continues to lead innovation in automotive design and engineering.
+      Every Ferrari model is a statement of aerodynamic excellence, cutting-edge
+      technology, and unmistakable Italian flair.
+    </p>
+    <p>
+      From championship-winning F1 cars to limited-edition hypercars,
+      Ferrari embodies passion, precision, and power. Their legacy in motorsport
+      shapes each road car with DNA rooted in competition.
+    </p>
+  </section>
+
+  <section class="models">
+    <h2>Featured Models</h2>
+    <div class="model-grid">
+      <div class="model-card">
+        <img src="images/ferrari-sf90.jpg" alt="Ferrari SF90" />
+        <h3>SF90 Stradale</h3>
+        <p>Plug-in hybrid hypercar with 986 horsepower and AWD system.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/ferrari-812.jpg" alt="Ferrari 812" />
+        <h3>812 Superfast</h3>
+        <p>6.5L V12 engine delivering 789 horsepower for ultimate GT performance.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/ferrari-f8.jpg" alt="Ferrari F8 Tributo" />
+        <h3>F8 Tributo</h3>
+        <p>Turbocharged V8 with 710 horsepower, blending power and agility.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/ferrari-portofino.jpg" alt="Ferrari Portofino" />
+        <h3>Portofino M</h3>
+        <p>A retractable hardtop GT with everyday usability and Ferrari spirit.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/ferrari-laferrari.jpg" alt="LaFerrari" />
+        <h3>LaFerrari</h3>
+        <p>Hybrid hypercar icon producing 950 horsepower with KERS technology.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/ferrari-daytona-sp3.jpg" alt="Ferrari Daytona SP3" />
+        <h3>Daytona SP3</h3>
+        <p>Part of the Icona series, inspired by 1960s endurance racers with a 6.5L V12.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

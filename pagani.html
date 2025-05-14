@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pagani</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    nav {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: rgba(153, 0, 255, 0.8);
+    }
+    @media (max-width: 600px) {
+      nav {
+        position: static;
+        text-align: center;
+        margin-top: 10px;
+      }
+      nav a {
+        display: block;
+        margin: 5px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero" style="background-image: url('images/pagani-hero.jpg');">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="ferrari.html">Ferrari</a>
+      <a href="lamborghini.html">Lamborghini</a>
+      <a href="mclaren.html">McLaren</a>
+      <a href="bugatti.html">Bugatti</a>
+    </nav>
+    <div class="hero-text">
+      <h1>Pagani</h1>
+      <p>Where Art Meets Engineering</p>
+    </div>
+  </section>
+
+  <section class="history">
+    <h2>About Pagani</h2>
+    <p>
+      Pagani Automobili was founded in 1992 by Horacio Pagani, an Argentinian-born engineer. Based in Modena, Italy, Pagani quickly gained a reputation for crafting hypercars that are both mechanical marvels and pieces of modern art.
+    </p>
+    <p>
+      Using aerospace materials like carbon-titanium, Pagani cars are built with obsessive attention to detail. Every screw, every surface, every piece is bespoke. Pagani doesn't just build cars — it creates rolling sculptures with soul and speed.
+    </p>
+    <p>
+      With limited production numbers and extreme personalization, Pagani remains one of the most exclusive brands in the hypercar world.
+    </p>
+  </section>
+
+  <section class="models">
+    <h2>Featured Models</h2>
+    <div class="model-grid">
+      <div class="model-card">
+        <img src="images/pagani-zonda.jpg" alt="Pagani Zonda" />
+        <h3>Zonda</h3>
+        <p>The original Pagani hypercar with a Mercedes-AMG V12 and iconic styling.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/pagani-zonda-r.jpg" alt="Pagani Zonda R" />
+        <h3>Zonda R</h3>
+        <p>Track-only monster with carbon chassis and screaming naturally aspirated V12.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/pagani-huayra.jpg" alt="Pagani Huayra" />
+        <h3>Huayra</h3>
+        <p>Active aerodynamics, twin-turbo V12, and handcrafted interior perfection.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/pagani-huayra-bc.jpg" alt="Pagani Huayra BC" />
+        <h3>Huayra BC</h3>
+        <p>Lighter, sharper, and more aggressive version of the Huayra.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/pagani-imola.jpg" alt="Pagani Imola" />
+        <h3>Imola</h3>
+        <p>1,250 kg track-focused Huayra derivative with 827 hp.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/pagani-utopia.jpg" alt="Pagani Utopia" />
+        <h3>Utopia</h3>
+        <p>Pagani's latest creation: an analog driver's hypercar with timeless design.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

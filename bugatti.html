@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bugatti</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    nav {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: rgba(0, 102, 255, 0.8);
+    }
+    @media (max-width: 600px) {
+      nav {
+        position: static;
+        text-align: center;
+        margin-top: 10px;
+      }
+      nav a {
+        display: block;
+        margin: 5px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero" style="background-image: url('images/bugatti-hero.jpg');">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="ferrari.html">Ferrari</a>
+      <a href="lamborghini.html">Lamborghini</a>
+      <a href="mclaren.html">McLaren</a>
+      <a href="pagani.html">Pagani</a>
+    </nav>
+    <div class="hero-text">
+      <h1>Bugatti</h1>
+      <p>Art, Speed, and Engineering Since 1909</p>
+    </div>
+  </section>
+
+  <section class="history">
+    <h2>About Bugatti</h2>
+    <p>
+      Founded by Ettore Bugatti in Molsheim, France in 1909, Bugatti is a name synonymous with luxury, speed, and avant-garde design. Known for producing some of the fastest and most exclusive hypercars in the world, Bugatti continues to push the boundaries of engineering.
+    </p>
+    <p>
+      Bugatti’s modern renaissance began with the Veyron, a 1,001-hp engineering marvel. It was followed by the Chiron, Divo, and Bolide — each one a testament to performance and luxury. With limited production and unmatched craftsmanship, every Bugatti is a work of art.
+    </p>
+    <p>
+      Blending heritage with high technology, Bugatti hypercars are not just fast — they redefine what’s mechanically and aesthetically possible.
+    </p>
+  </section>
+
+  <section class="models">
+    <h2>Featured Models</h2>
+    <div class="model-grid">
+      <div class="model-card">
+        <img src="images/bugatti-veyron.jpg" alt="Bugatti Veyron" />
+        <h3>Veyron</h3>
+        <p>The first 1,000+ hp production car, reaching 253 mph in 2005.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/bugatti-chiron.jpg" alt="Bugatti Chiron" />
+        <h3>Chiron</h3>
+        <p>1,479 hp quad-turbo W16, blending luxury with top-tier speed.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/bugatti-divo.jpg" alt="Bugatti Divo" />
+        <h3>Divo</h3>
+        <p>Track-focused version of the Chiron with enhanced downforce and styling.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/bugatti-la-voiture-noire.jpg" alt="Bugatti La Voiture Noire" />
+        <h3>La Voiture Noire</h3>
+        <p>One-off grand tourer, the most expensive new car ever sold.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/bugatti-bolide.jpg" alt="Bugatti Bolide" />
+        <h3>Bolide</h3>
+        <p>Lightweight track beast pushing 1,850 hp with extreme aerodynamics.</p>
+      </div>
+      <div class="model-card">
+        <img src="images/bugatti-centodieci.jpg" alt="Bugatti Centodieci" />
+        <h3>Centodieci</h3>
+        <p>Limited model honoring the EB110 with futuristic retro styling.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

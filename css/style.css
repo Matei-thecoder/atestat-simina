@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #0a0a0a;
+    color: white;
+  }
+  
+  .main-header {
+    height: 100vh;
+    background: url('../images/cover.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .main-header h1 {
+    font-size: 4rem;
+    text-shadow: 0 0 20px red;
+  }
+  
+  nav a {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid red;
+  }
+  
+  .hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .hero-text {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: white;
+    text-shadow: 0 0 10px black;
+  }
+  
+  .history, .models {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .models .model-grid {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 40px;
+  }
+  
+  .model-card {
+    background: #111;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #ff0000;
+    transition: transform 0.3s;
+  }
+  
+  .model-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .model-card img {
+    width: 100%;
+    display: block;
+  }
+  
+  .model-card h3 {
+    padding: 10px;
+    font-size: 1.3rem;
+  }
+  
+  .model-card p {
+    padding: 0 10px 10px;
+    font-size: 1rem;
+  }
+  
